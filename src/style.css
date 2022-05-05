@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.mainContainer {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('https://hdwallpaperim.com/wp-content/uploads/2017/08/22/376591-Earth-space-colorful.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.navBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  height: 60px;
+  color: white;
+}
+
+.navBar h1 {
+  font-weight: 800;
+}
+
+.navBar div button {
+  border-radius: 0px;
+  padding: 6px 17px;
+  font-size: 14px;
+}
+
+.login {
+  background: #00ffff;
+  border: 1px solid #00ffff;
+  color: black;
+  margin-right: 10px;
+}
+
+.login:hover {
+  background: transparent;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+}
+
+.signUp {
+  background: transparent;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+}
+
+.signUp:hover {
+  background: #00ffff;
+  border: 1px solid #00ffff;
+  color: black;
+}
+
+.header {
+  height: calc(100vh - 60px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
